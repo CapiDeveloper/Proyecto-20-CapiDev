@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="spinner" class="spinner">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <div id="contenedor" class="d-none">
+        <article class="tarjeta">
+            <h1 id="descripcion"></h1>
+            <p id="temperatura"></p>
+            <img id="icono" src="" alt="Icono temperatura">
+            <ul class="detalles">
+                <li>
+                    <span class="detalle__titulo">País</span>
+                    <span id="pais"></span>
+                </li>
+                <li>
+                    <span class="detalle__titulo">Máximo</span>
+                    <span id="temp_min"></span>
+                </li>
+                <li>
+                    <span class="detalle__titulo">Minimo</span>
+                    <span id="temp_max"></span>
+                </li>
+            </ul>
+        </article>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
